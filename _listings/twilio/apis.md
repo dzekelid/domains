@@ -41,7 +41,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/twilio/accounts-accountsid-sip-domains-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/twilio/accounts-accountsid-sip-domains-post.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

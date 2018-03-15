@@ -13,8 +13,8 @@ tags:
 - Stack Network
 - DNS
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/aws-lightsale/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/aws-lightsale/action-updatedomainentry-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/aws-lightsale/action-createdomain-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html?fid=6DDA37DF97F08F8B-23761D4A79F7B1E

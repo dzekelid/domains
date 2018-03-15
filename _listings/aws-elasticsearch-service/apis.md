@@ -31,7 +31,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/aws-elasticsearch-service/2015-01-01-es-domain-domain-name-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/aws-elasticsearch-service/2015-01-01-es-domain-info-post.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/es/home?region=us-east-1

@@ -35,7 +35,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/sendgrid/whitelabel-domains-domain-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/sendgrid/whitelabel-domains-domain-id-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

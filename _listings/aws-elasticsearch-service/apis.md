@@ -20,7 +20,18 @@ created: "2018-03-15"
 modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/aws-elasticsearch-service/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Amazon Elasticsearch Service API
+  description: Amazon Elasticsearch Service makes it easy to deploy, operate, and
+    scale Elasticsearch for log analytics, full text search, application monitoring,
+    and more
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: ""
+  baseURL: :///
+  tags: Domains
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/aws-elasticsearch-service/2015-01-01-es-domain-domain-name-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/es/home?region=us-east-1

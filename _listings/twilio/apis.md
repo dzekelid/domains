@@ -25,9 +25,9 @@ tags:
 - Messaging
 - Getting Started
 - API LIfeycle
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/twilio/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Twilio
@@ -41,7 +41,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/twilio/accounts-accountsid-sip-domains-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-credentiallistmappings-clsid-delete.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

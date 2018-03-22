@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDomain&k=1:
+  /?Action=DeleteDomain:
     get:
       summary: ' Delete Domain '
       description: Deletes the specified domain recordset and all of its domain records

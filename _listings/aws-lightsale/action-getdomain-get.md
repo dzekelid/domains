@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDomain&k=1:
+  /?Action=GetDomain:
     get:
       summary: ' Get Domain '
       description: Returns information about a specific domain recordset

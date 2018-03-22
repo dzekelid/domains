@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDomainEntry&k=1:
+  /?Action=DeleteDomainEntry:
     get:
       summary: ' Delete Domain Entry '
       description: Deletes a specific domain entry

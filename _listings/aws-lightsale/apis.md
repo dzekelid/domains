@@ -27,7 +27,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/action-getdomains-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/action-updatedomainentry-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html?fid=6DDA37DF97F08F8B-23761D4A79F7B1E

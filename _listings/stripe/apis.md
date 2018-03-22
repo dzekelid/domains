@@ -20,9 +20,9 @@ tags:
 - Change Log
 - Billing
 - API LIfeycle
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/stripe/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Stripe
@@ -33,7 +33,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/stripe/apple-pay-domains-domain-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apple-pay-domains-get.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/

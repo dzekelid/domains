@@ -12,9 +12,9 @@ tags:
 - Messaging
 - Email
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/aws-simple-email-service/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Simple Email Service API
@@ -26,7 +26,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/domains/master/_listings/aws-simple-email-service/action-verifydomaindkim-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/action-verifydomaindkim-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SES

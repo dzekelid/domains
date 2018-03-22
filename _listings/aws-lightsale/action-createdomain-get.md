@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDomain&k=1:
+  /?Action=CreateDomain:
     get:
       summary: ' Create Domain '
       description: Creates a domain resource for the specified domain (e

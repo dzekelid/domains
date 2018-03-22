@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateDomainEntry&k=1:
+  /?Action=UpdateDomainEntry:
     get:
       summary: ' Update Domain Entry '
       description: Updates a domain recordset after it is created

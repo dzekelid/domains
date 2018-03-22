@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDomainEntry&k=1:
+  /?Action=CreateDomainEntry:
     get:
       summary: ' Create Domain Entry '
       description: |-

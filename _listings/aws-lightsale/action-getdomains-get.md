@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDomains&k=1:
+  /?Action=GetDomains:
     get:
       summary: ' Get Domains '
       description: Returns a list of all domains in the user's account

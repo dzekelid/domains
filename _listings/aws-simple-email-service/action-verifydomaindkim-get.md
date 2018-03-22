@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=VerifyDomainDkim&k=1:
+  /?Action=VerifyDomainDkim:
     get:
       summary: ' Verify Domain Dkim '
       description: Returns a set of DKIM tokens for a domain

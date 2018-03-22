@@ -33,7 +33,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apple-pay-domains-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apple-pay-domains-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/

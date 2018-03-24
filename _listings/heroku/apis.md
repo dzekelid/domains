@@ -38,7 +38,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/apps-app-domains-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/apps-app-domains-get.md
 x-common:
 - type: x-base
   url: https://api.heroku.com

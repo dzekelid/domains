@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Create Domain Entry
   version: 1.0.0
+  description: |-
+    Creates one of the following entry records associated with the domain: A record, CNAME
+          record, TXT record, or MX record.
 schemes:
 - http
 produces:

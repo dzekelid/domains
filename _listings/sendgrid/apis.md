@@ -36,8 +36,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-id-validate-post.md
-- name: SendGrid Get Whitelabel Domains Domain
-  description: "**This endpoint allows you to retrieve a specific domain whitelabel.**\n\nA
+- name: SendGrid Patch Whitelabel Domains Domain
+  description: "**This endpoint allows you to update the settings for a domain whitelabel.**\n\nA
     domain whitelabel allows you to remove the \u201Cvia\u201D or \u201Csent on behalf
     of\u201D message that your recipients see when they read your emails. Whitelabeling
     a domain allows you to replace sendgrid.net with your personal sending domain.
@@ -52,9 +52,7 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-domain-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-domain-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-domain-id-patch.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

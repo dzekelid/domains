@@ -42,17 +42,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-post.md
-- name: Twilio Add Domains
-  description: Update the attributes of a domain.
+- name: Twilio Get Domains
+  description: Returns a paged list of the domains for an account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

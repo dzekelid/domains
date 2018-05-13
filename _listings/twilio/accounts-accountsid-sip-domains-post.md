@@ -1,12 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Twilio
-  description: Twilio is a cloud communications Infrastructure as a Service(IaaS)
-    company based in San Francisco, California. Twilio allows software developers
-    to programmatically make and receive phone calls and send and receive text messages
-    using its web service APIs. Twilio's services are accessed over HTTP and are billed
-    based on usage.
+  title: Twilio Add Domains
+  description: Creates a new Domain and returns its instance resource. You must pick
+    a unique domain name that ends in .sip.twilio.com.nAfter creating a Domain, you
+    must map it to an authentication method before the domain is ready to receive
+    traffic.n
   termsOfService: https://www.twilio.com/legal/tos
   version: v1
 host: api.twilio.com

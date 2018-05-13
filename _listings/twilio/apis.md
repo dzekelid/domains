@@ -42,18 +42,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-post.md
-- name: Twilio Delete Domains IP Access Control List Mappings
-  description: Delete a domain. If you have created subdomains of a domain, you will
-    not be able to delete the domain until you first delete all subdomains of it.
+- name: Twilio Get Domains
+  description: Return a specific instance by Sid.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

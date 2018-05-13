@@ -36,15 +36,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-id-validate-post.md
-- name: SendGrid Delete Whitelabel Domains Domain
-  description: "**This endpoint allows you to delete a domain whitelabel.**\n\nA domain
-    whitelabel allows you to remove the \u201Cvia\u201D or \u201Csent on behalf of\u201D
-    message that your recipients see when they read your emails. Whitelabeling a domain
-    allows you to replace sendgrid.net with your personal sending domain. You will
-    be required to create a subdomain so that SendGrid can generate the DNS records
-    which you must give to your host provider. If you choose to use Automated Security,
-    SendGrid will provide you with 3 CNAME records. If you turn Automated Security
-    off, you will be given 2 TXT records and 1 MX record.\n\nFor more information
+- name: SendGrid Get Whitelabel Domains Domain
+  description: "**This endpoint allows you to retrieve a specific domain whitelabel.**\n\nA
+    domain whitelabel allows you to remove the \u201Cvia\u201D or \u201Csent on behalf
+    of\u201D message that your recipients see when they read your emails. Whitelabeling
+    a domain allows you to replace sendgrid.net with your personal sending domain.
+    You will be required to create a subdomain so that SendGrid can generate the DNS
+    records which you must give to your host provider. If you choose to use Automated
+    Security, SendGrid will provide you with 3 CNAME records. If you turn Automated
+    Security off, you will be given 2 TXT records and 1 MX record.\n\nFor more information
     on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)"
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
@@ -52,7 +52,9 @@ apis:
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-domain-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-domain-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-domain-id-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

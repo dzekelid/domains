@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Heroku
-  description: Manage your Heroku apps, configs, collaborators &amp; resources
+  title: Heroku Get Application Domains
+  description: List domains for an app.
   version: "1"
 host: api.heroku.com
 basePath: /

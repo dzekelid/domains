@@ -42,17 +42,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-post.md
-- name: Twilio Delete Domains Credentials
-  description: Remove a CredentialListMapping from a domain
+- name: Twilio Get Domains Credentials
+  description: Get the user lists mapped to this domain.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-credentiallistmappings-clsid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-credentiallistmappings-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-credentiallistmappings-clsid-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-credentiallistmappings-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

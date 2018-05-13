@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Email Service API
+  title: AWS Simple Email Service API Verify Domain Dkim
   version: 1.0.0
+  description: Returns a set of DKIM tokens for a domain.
 schemes:
 - http
 produces:

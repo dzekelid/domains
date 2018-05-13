@@ -1,12 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Twilio
-  description: Twilio is a cloud communications Infrastructure as a Service(IaaS)
-    company based in San Francisco, California. Twilio allows software developers
-    to programmatically make and receive phone calls and send and receive text messages
-    using its web service APIs. Twilio's services are accessed over HTTP and are billed
-    based on usage.
+  title: Twilio Get Domains
+  description: Return a specific instance by Sid.
   termsOfService: https://www.twilio.com/legal/tos
   version: v1
 host: api.twilio.com

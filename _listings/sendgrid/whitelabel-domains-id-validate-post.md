@@ -1,11 +1,19 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Add Whitelabel Domains  Valate
+  description: "**This endpoint allows you to validate a domain whitelabel. If it
+    fails, it will return an error message describing why the whitelabel could not
+    be validated.**\n\nA domain whitelabel allows you to remove the \u201Cvia\u201D
+    or \u201Csent on behalf of\u201D message that your recipients see when they read
+    your emails. Whitelabeling a domain allows you to replace sendgrid.net with your
+    personal sending domain. You will be required to create a subdomain so that SendGrid
+    can generate the DNS records which you must give to your host provider. If you
+    choose to use Automated Security, SendGrid will provide you with 3 CNAME records.
+    If you turn Automated Security off, you will be given 2 TXT records and 1 MX record.\n\nFor
+    more information on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)\n\n##
+    URI Parameters\n| URI Parameter   | Type   | Description  |\n|---|---|---|\n|
+    id | integer  |ID of the domain whitelabel to validate. |"
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3

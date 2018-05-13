@@ -32,6 +32,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/2015-01-01-es-domain-domain-name-config-post.md
+- name: Amazon Elasticsearch Service API Describe Elasticsearch Domain Config
+  description: |-
+    Displays the configuration of an Amazon ES domain. Use the HTTP GET method
+                    with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: http:://{host}//
+  tags: Domains
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/2015-01-01-es-domain-domain-name-config-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/es/home?region=us-east-1

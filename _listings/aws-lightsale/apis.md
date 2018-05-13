@@ -28,15 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/action-updatedomainentry-get.md
-- name: Amazon Lightsale API Delete Domain Entry
-  description: Deletes a specific domain entry.
+- name: Amazon Lightsale API Get Domain
+  description: Returns information about a specific domain recordset.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
   humanURL: https://amazonlightsail.com/
   baseURL: http:://{host}//
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/action-deletedomainentry-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/action-getdomain-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html?fid=6DDA37DF97F08F8B-23761D4A79F7B1E

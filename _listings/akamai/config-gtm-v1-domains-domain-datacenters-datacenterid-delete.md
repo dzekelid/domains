@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Remove a Data Center
+  description: Remove a Data Center
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Remove a Data Center
       operationId: configgtmv1domainsdomaindatacentersdatacenterid
       parameters:
-      - in: Number
+      - in: query
         name: datacenterId
         description: Numeric id of the data center
         type: string
-      - in: String
+      - in: query
         name: domain
         description: Name of Traffic Management domain
         type: string

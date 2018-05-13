@@ -42,18 +42,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-post.md
-- name: Twilio Get Domains IP Access Control List Mapping
-  description: Return the IpAccessControlListMappings that are associated to this
-    domain.
+- name: Twilio Add Domains IP Access Control List Mappings
+  description: Map an IpAccessControlList to this domain.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-ipaccesscontrollistmappings-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-ipaccesscontrollistmappings-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-ipaccesscontrollistmappings-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accounts-accountsid-sip-domains-sipdomainsid-ipaccesscontrollistmappings-post-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install

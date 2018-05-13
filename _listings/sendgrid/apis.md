@@ -36,25 +36,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-id-validate-post.md
-- name: SendGrid Add Whitelabel Domains  Ips
-  description: "**This endpoint allows you to add an IP address to a domain whitelabel.**\n\nA
-    domain whitelabel allows you to remove the \u201Cvia\u201D or \u201Csent on behalf
-    of\u201D message that your recipients see when they read your emails. Whitelabeling
-    a domain allows you to replace sendgrid.net with your personal sending domain.
-    You will be required to create a subdomain so that SendGrid can generate the DNS
-    records which you must give to your host provider. If you choose to use Automated
-    Security, SendGrid will provide you with 3 CNAME records. If you turn Automated
-    Security off, you will be given 2 TXT records and 1 MX record.\n\nFor more information
-    on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)\n\n##
-    URI Parameters\n| URI Parameter   | Type  |  Description  |\n|---|---|---|\n|
-    id | integer  | ID of the domain to which you are adding an IP |"
+- name: SendGrid Delete Whitelabel Domains  Ips Ip
+  description: "**This endpoint allows you to remove a domain's IP address from that
+    domain's whitelabel.**\n\nA domain whitelabel allows you to remove the \u201Cvia\u201D
+    or \u201Csent on behalf of\u201D message that your recipients see when they read
+    your emails. Whitelabeling a domain allows you to replace sendgrid.net with your
+    personal sending domain. You will be required to create a subdomain so that SendGrid
+    can generate the DNS records which you must give to your host provider. If you
+    choose to use Automated Security, SendGrid will provide you with 3 CNAME records.
+    If you turn Automated Security off, you will be given 2 TXT records and 1 MX record.\n\nFor
+    more information on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)\n\n##
+    URI Parameters\n| URI Parameter   | Type  | Description  |\n|---|---|---|\n| id
+    | integer  | ID of the domain whitelabel to delete the IP from. |\n| ip | string
+    | IP to remove from the domain whitelabel. |"
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-id-ips-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-id-ips-ip-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

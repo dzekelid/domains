@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elasticsearch Service API
+  title: Amazon Elasticsearch Service API Update Elasticsearch Domain Config
   version: 1.0.0
+  description: |-
+    Modifies the configuration of an Amazon ES domain, such as the instance type and the
+                    number of instances. Use the POST HTTP method with this
+                    operation.
 schemes:
 - http
 produces:

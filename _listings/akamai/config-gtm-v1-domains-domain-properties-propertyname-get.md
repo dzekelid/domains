@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get a Property
+  description: Get a Property
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Get a Property
       operationId: configgtmv1domainsdomainpropertiespropertyname
       parameters:
-      - in: String
+      - in: query
         name: domain
         description: Name of Traffic Management domain
         type: string
-      - in: String
+      - in: query
         name: propertyName
         description: Name of property to create or update
         type: string

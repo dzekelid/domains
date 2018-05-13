@@ -28,15 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/action-updatedomainentry-get.md
-- name: Amazon Lightsale API Get Domains
-  description: Returns a list of all domains in the user's account.
+- name: Amazon Lightsale API Update Domain Entry
+  description: Updates a domain recordset after it is created.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
   humanURL: https://amazonlightsail.com/
   baseURL: http:://{host}//
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/action-getdomains-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/action-updatedomainentry-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html?fid=6DDA37DF97F08F8B-23761D4A79F7B1E

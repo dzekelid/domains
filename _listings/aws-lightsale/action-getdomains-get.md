@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Get Domains
   version: 1.0.0
+  description: Returns a list of all domains in the user's account.
 schemes:
 - http
 produces:

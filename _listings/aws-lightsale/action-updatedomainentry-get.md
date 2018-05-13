@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Update Domain Entry
   version: 1.0.0
+  description: Updates a domain recordset after it is created.
 schemes:
 - http
 produces:

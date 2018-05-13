@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Delete Domain
   version: 1.0.0
+  description: Deletes the specified domain recordset and all of its domain records.
 schemes:
 - http
 produces:

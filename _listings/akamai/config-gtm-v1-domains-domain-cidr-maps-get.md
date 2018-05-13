@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List CIDR Maps
+  description: List CIDR Maps
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: List CIDR Maps
       operationId: configgtmv1domainsdomaincidrmaps
       parameters:
-      - in: String
+      - in: query
         name: domain
         description: Name of Traffic Management domain
         type: string

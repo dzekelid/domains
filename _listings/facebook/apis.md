@@ -27,15 +27,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Facebook Get User Domains
-  description: User Domains
+- name: Facebook Get User Promotable Domains
+  description: User Promotable Domains
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/facebook/#123;user-id-#125;-domains-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/facebook/#123;user-id-#125;-promotable-domains-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share

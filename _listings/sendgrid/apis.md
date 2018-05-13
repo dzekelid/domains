@@ -36,31 +36,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-id-validate-post.md
-- name: SendGrid Add Whitelabel Domains
-  description: "**This endpoint allows you to create a whitelabel for one of your
-    domains.**\n\nIf you are creating a domain whitelabel that you would like a subuser
-    to use, you have two options:\n1. Use the \"username\" parameter. This allows
-    you to create a whitelabel on behalf of your subuser. This means the subuser is
-    able to see and modify the created whitelabel.\n2. Use the Association workflow
-    (see Associate Domain section). This allows you to assign a whitelabel created
-    by the parent to a subuser. This means the subuser will default to the assigned
-    whitelabel, but will not be able to see or modify that whitelabel. However, if
-    the subuser creates their own whitelabel it will overwrite the assigned whitelabel.\n\nA
-    domain whitelabel allows you to remove the \u201Cvia\u201D or \u201Csent on behalf
-    of\u201D message that your recipients see when they read your emails. Whitelabeling
-    a domain allows you to replace sendgrid.net with your personal sending domain.
-    You will be required to create a subdomain so that SendGrid can generate the DNS
-    records which you must give to your host provider. If you choose to use Automated
-    Security, SendGrid will provide you with 3 CNAME records. If you turn Automated
-    Security off, you will be given 2 TXT records and 1 MX record.\n\nFor more information
-    on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)"
+- name: SendGrid Get Whitelabel Domains Default
+  description: "**This endpoint allows you to retrieve the default whitelabel for
+    a domain.**\n\nA domain whitelabel allows you to remove the \u201Cvia\u201D or
+    \u201Csent on behalf of\u201D message that your recipients see when they read
+    your emails. Whitelabeling a domain allows you to replace sendgrid.net with your
+    personal sending domain. You will be required to create a subdomain so that SendGrid
+    can generate the DNS records which you must give to your host provider. If you
+    choose to use Automated Security, SendGrid will provide you with 3 CNAME records.
+    If you turn Automated Security off, you will be given 2 TXT records and 1 MX record.\n\nFor
+    more information on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)\n\n##
+    URI Parameters\n| URI Parameter   | Type   | Description  |\n|---|---|---|\n|
+    domain | string  |The domain to find a default domain whitelabel for. |"
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Domains
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-default-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/sendgrid/whitelabel-domains-default-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

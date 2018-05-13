@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elasticsearch Service API
+  title: Amazon Elasticsearch Service API Describe Elasticsearch Domains
   version: 1.0.0
+  description: |-
+    Describes the domain configuration for up to five specified Amazon ES domains.
+                    Information includes the domain ID, domain service endpoint, and domain ARN. Use the
+                    HTTP POST method with this operation.
 schemes:
 - http
 produces:

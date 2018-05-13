@@ -39,7 +39,68 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/apps-app-domains-get.md
+- name: Heroku Parameters Application Domains
+  description: Parameters application domains.
+  image: https://avatars3.githubusercontent.com/u/23211?v=4
+  humanURL: https://www.heroku.com/
+  baseURL: https://api.heroku.com//
+  tags: Domains
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/apps-app-domains-parameters.md
 x-common:
+- type: x-base
+  url: https://api.heroku.com
+- type: x-blog
+  url: https://blog.heroku.com/
+- type: x-blog-rss
+  url: http://feeds2.feedburner.com/heroku
+- type: x-command-line-interface
+  url: https://devcenter.heroku.com/articles/heroku-command
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/heroku
+- type: x-developer
+  url: https://devcenter.heroku.com/
+- type: x-getting-started
+  url: https://devcenter.heroku.com/start
+- type: x-github
+  url: https://github.com/heroku
+- type: x-issues
+  url: https://status.heroku.com/incidents
+- type: x-java-library
+  url: https://devcenter.heroku.com/categories/java
+- type: x-nodejs
+  url: https://devcenter.heroku.com/categories/nodejs
+- type: x-php-library
+  url: https://devcenter.heroku.com/categories/php
+- type: x-pricing
+  url: https://www.heroku.com/pricing
+- type: x-pricing--show-2
+  url: https://www.heroku.com/pricing
+- type: x-pricing--show-3
+  url: https://www.heroku.com/pricing
+- type: x-pricing--show-4
+  url: https://www.heroku.com/pricing
+- type: x-pricing--show-5
+  url: https://www.heroku.com/pricing
+- type: x-privacy
+  url: https://www.heroku.com/policy/privacy
+- type: x-python-library
+  url: https://devcenter.heroku.com/categories/python
+- type: x-ruby-library
+  url: https://devcenter.heroku.com/categories/ruby
+- type: x-security
+  url: https://www.heroku.com/policy/security
+- type: x-selfservice-registration
+  url: https://signup.heroku.com/dc
+- type: x-support
+  url: https://www.heroku.com/support
+- type: x-terms-of-service
+  url: https://www.heroku.com/policy/tos
+- type: x-twitter
+  url: https://twitter.com/HerokuDevCenter
+- type: x-website
+  url: https://www.heroku.com/
 - type: x-base
   url: https://api.heroku.com
 - type: x-blog

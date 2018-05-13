@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Create Domain
   version: 1.0.0
+  description: Creates a domain resource for the specified domain (e.
 schemes:
 - http
 produces:

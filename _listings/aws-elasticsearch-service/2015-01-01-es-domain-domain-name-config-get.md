@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elasticsearch Service API
+  title: Amazon Elasticsearch Service API Describe Elasticsearch Domain Config
   version: 1.0.0
+  description: |-
+    Displays the configuration of an Amazon ES domain. Use the HTTP GET method
+                    with this operation.
 schemes:
 - http
 produces:

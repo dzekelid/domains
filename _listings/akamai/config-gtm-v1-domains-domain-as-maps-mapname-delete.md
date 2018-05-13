@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Remove an AS Map
+  description: Remove an AS Map
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Remove an AS Map
       operationId: configgtmv1domainsdomainasmapsmapname
       parameters:
-      - in: String
+      - in: query
         name: domain
         description: Name of Traffic Management domain
         type: string
-      - in: String
+      - in: query
         name: mapName
         description: Name of AS Map to create, update or delete
         type: string

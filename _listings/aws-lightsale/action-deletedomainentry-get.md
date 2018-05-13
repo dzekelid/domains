@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Delete Domain Entry
   version: 1.0.0
+  description: Deletes a specific domain entry.
 schemes:
 - http
 produces:

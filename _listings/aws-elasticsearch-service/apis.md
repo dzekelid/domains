@@ -45,6 +45,18 @@ x-common:
   url: https://aws.amazon.com/elasticsearch-service/pricing/
 - type: x-website
   url: https://aws.amazon.com/elasticsearch-service/
+- type: x-console
+  url: https://console.aws.amazon.com/es/home?region=us-east-1
+- type: x-documentation
+  url: http://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-configuration-api.html
+- type: x-faq
+  url: https://aws.amazon.com/elasticsearch-service/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/elasticsearch-service/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/elasticsearch-service/pricing/
+- type: x-website
+  url: https://aws.amazon.com/elasticsearch-service/
 include: []
 maintainers:
 - FN: Kin Lane

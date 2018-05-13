@@ -1,11 +1,24 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Add Whitelabel Domains
+  description: "**This endpoint allows you to create a whitelabel for one of your
+    domains.**\n\nIf you are creating a domain whitelabel that you would like a subuser
+    to use, you have two options:\n1. Use the \"username\" parameter. This allows
+    you to create a whitelabel on behalf of your subuser. This means the subuser is
+    able to see and modify the created whitelabel.\n2. Use the Association workflow
+    (see Associate Domain section). This allows you to assign a whitelabel created
+    by the parent to a subuser. This means the subuser will default to the assigned
+    whitelabel, but will not be able to see or modify that whitelabel. However, if
+    the subuser creates their own whitelabel it will overwrite the assigned whitelabel.\n\nA
+    domain whitelabel allows you to remove the \u201Cvia\u201D or \u201Csent on behalf
+    of\u201D message that your recipients see when they read your emails. Whitelabeling
+    a domain allows you to replace sendgrid.net with your personal sending domain.
+    You will be required to create a subdomain so that SendGrid can generate the DNS
+    records which you must give to your host provider. If you choose to use Automated
+    Security, SendGrid will provide you with 3 CNAME records. If you turn Automated
+    Security off, you will be given 2 TXT records and 1 MX record.\n\nFor more information
+    on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)"
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3

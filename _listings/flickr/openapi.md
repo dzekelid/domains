@@ -1,0 +1,139 @@
+---
+swagger: "2.0"
+x-collection-name: Flickr
+x-complete: 1
+info:
+  title: Flickr
+  description: explore-upload-and-organize-photos-on-flickr
+  version: 1.0.0
+host: api.flickr.com
+basePath: /services/
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /rest/?method=flickr.stats.getCollectionDomains:
+    get:
+      summary: Stats Get Collection Domains
+      description: Get a list of referring domains for a collection
+      operationId: getRestMethodFlickr.stats.getcollectiondomains
+      x-api-path-slug: restmethodflickr-stats-getcollectiondomains-get
+      parameters:
+      - in: query
+        name: api_key
+        description: Your API application key
+      - in: query
+        name: collection_id
+        description: The id of the collection to get stats for
+      - in: query
+        name: date
+        description: Stats will be returned for this date
+      - in: query
+        name: format
+        description: Response format
+      - in: query
+        name: page
+        description: The page of results to return
+      - in: query
+        name: per_page
+        description: Number of domains to return per page
+      responses:
+        200:
+          description: OK
+      tags:
+      - Stats
+      - GetCollectionDomains
+  /rest/?method=flickr.stats.getPhotoDomains:
+    get:
+      summary: Stats Get Photo Domains
+      description: Get a list of referring domains for a photo.
+      operationId: getRestMethodFlickr.stats.getphotodomains
+      x-api-path-slug: restmethodflickr-stats-getphotodomains-get
+      parameters:
+      - in: query
+        name: api_key
+        description: Your API application key
+      - in: query
+        name: date
+        description: Stats will be returned for this date
+      - in: query
+        name: format
+        description: Response format
+      - in: query
+        name: page
+        description: The page of results to return
+      - in: query
+        name: per_page
+        description: Number of domains to return per page
+      - in: query
+        name: photo_id
+        description: The id of the photo to get stats for
+      responses:
+        200:
+          description: OK
+      tags:
+      - Stats
+      - GetPhotoDomains
+  /rest/?method=flickr.stats.getPhotosetDomains:
+    get:
+      summary: Stats Get Photoset Domains
+      description: Get a list of referring domains for a photoset.
+      operationId: getRestMethodFlickr.stats.getphotosetdomains
+      x-api-path-slug: restmethodflickr-stats-getphotosetdomains-get
+      parameters:
+      - in: query
+        name: api_key
+        description: Your API application key
+      - in: query
+        name: date
+        description: Stats will be returned for this date
+      - in: query
+        name: format
+        description: Response format
+      - in: query
+        name: page
+        description: The page of results to return
+      - in: query
+        name: per_page
+        description: Number of domains to return per page
+      - in: query
+        name: photoset_id
+        description: The id of the photoset to get stats for
+      responses:
+        200:
+          description: OK
+      tags:
+      - Stats
+      - GetPhotosetDomains
+  /rest/?method=flickr.stats.getPhotostreamDomains:
+    get:
+      summary: Stats Get Photostream Domains
+      description: Get a list of referring domains for a photostream.
+      operationId: getRestMethodFlickr.stats.getphotostreamdomains
+      x-api-path-slug: restmethodflickr-stats-getphotostreamdomains-get
+      parameters:
+      - in: query
+        name: api_key
+        description: Your API application key
+      - in: query
+        name: date
+        description: Stats will be returned for this date
+      - in: query
+        name: format
+        description: Response format
+      - in: query
+        name: page
+        description: The page of results to return
+      - in: query
+        name: per_page
+        description: Number of domains to return per page
+      responses:
+        200:
+          description: OK
+      tags:
+      - Stats
+      - GetPhotostreamDomains
+---

@@ -44,7 +44,7 @@ paths:
         format: string
       - in: query
         name: exclude_query
-        description: Terms to exclude from matching  each term in the query string
+        description: Terms to exclude from matching ??? each term in the query string
           must be at least three characters long
         type: string
         format: string
@@ -75,7 +75,7 @@ paths:
         format: string
       - in: query
         name: query
-        description: Query string  each term in the query string must be at least
+        description: Query string ??? each term in the query string must be at least
           three characters long
         type: string
         format: string

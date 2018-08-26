@@ -7,42 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku
 x-kinRank: "8"
 x-alexaRank: "6044"
 tags: Domains
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Heroku Parameters Application Domains
-  x-api-slug: heroku
-  description: Parameters application domains.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/domains
-  tags: Parameters, Application, Domains
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/appsappdomains-parameters-openapi.md
-- name: Heroku Get Application Domains
-  x-api-slug: heroku
-  description: List domains for an app.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/domains
-  tags: Application, Domains
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/appsappdomains-get-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: Learn about building, deploying and managing your apps on Heroku.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com//
-  tags: Domains
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://here.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://heroku.stack.network
 - type: x-base
   url: https://api.heroku.com
 - type: x-blog

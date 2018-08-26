@@ -9,66 +9,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Domains
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stripe Get Apple Pay Domains
-  x-api-slug: stripe
+- name: Stripe - Get Apple Pay Domains
+  x-api-slug: apple-paydomains-get
   description: Get Apple, Pay, Domains
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///apple_pay/domains
-  tags: Apple, Pay, Domains
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apple-paydomains-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apple-paydomains-get-openapi.md
-- name: Stripe Add Apple Pay Domains
-  x-api-slug: stripe
-  description: Post Apple, Pay, Domains
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///apple_pay/domains
-  tags: Apple, Pay, Domains
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apple-paydomains-post-openapi.md
-- name: Stripe Delete Apple Pay Domains Domain
-  x-api-slug: stripe
-  description: Delete Apple, Pay, Domains, Domain
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///apple_pay/domains/{domain}
-  tags: Apple, Pay, Domains, Domain
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apple-paydomainsdomain-delete-openapi.md
-- name: Stripe Get Apple Pay Domains Domain
-  x-api-slug: stripe
+- name: Stripe - Get Apple Pay Domains Domain
+  x-api-slug: apple-paydomainsdomain-get
   description: Get Apple, Pay, Domains, Domain
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///apple_pay/domains/{domain}
-  tags: Apple, Pay, Domains, Domain
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apple-paydomainsdomain-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/apple-paydomainsdomain-get-openapi.md
-- name: Stripe
-  x-api-slug: stripe
-  description: Web and mobile payments, built for developers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1/
-  tags: Domains
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/stripe/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://stride.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stripe.stack.network
 - type: x-base
   url: https://api.stripe.com/
 - type: x-blog

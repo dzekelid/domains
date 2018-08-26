@@ -5,8 +5,8 @@ x-complete: 0
 info:
   title: OpenDNS Delete Domain
   version: 1.0.0
-  description: "To delete a domain from the shared customer\u2019s domain list, run
-    a DELETE request against the domains endpoint of the API."
+  description: To delete a domain from the shared customer???s domain list, run a
+    DELETE request against the domains endpoint of the API.
 schemes:
 - http
 produces:
@@ -50,49 +50,11 @@ paths:
           description: OK
       tags:
       - Domains
-  /links/{name}/:
-    get:
-      summary: Related Domains
-      description: This API method returns a list of domain names that have been frequently
-        seen requested b around the same time (up to 60 seconds before or after) as
-        the given domain name, but that are not frequently associated with other domain
-        names.
-      operationId: relatedDomains
-      x-api-path-slug: linksname-get
-      parameters:
-      - in: path
-        name: name
-        description: Domain Name
-        type: string
-        format: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Related Domains
-  /ips/{ip}/latest_domains:
-    get:
-      summary: Latest Malicious Domains
-      description: "The latest_domains endpoint shows whether the IP address you\u2019ve
-        entered as input has any known malicious domains associated with it."
-      operationId: latestMaliciousDomains
-      x-api-path-slug: ipsiplatest-domains-get
-      parameters:
-      - in: path
-        name: ip
-        description: The IP Address
-        type: string
-        format: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Malicious Domains
   /domains:
     get:
       summary: Get Domains
-      description: "To gather the lists of domains already added to the shared customer\u2019s
-        domain list, run a GET request against the domains endpoint of the API."
+      description: To gather the lists of domains already added to the shared customer???s
+        domain list, run a GET request against the domains endpoint of the API.
       operationId: getDomains
       x-api-path-slug: domains-get
       responses:
@@ -102,8 +64,8 @@ paths:
       - Domains
     delete:
       summary: Delete Domain
-      description: "To delete a domain from the shared customer\u2019s domain list,
-        run a DELETE request against the domains endpoint of the API."
+      description: To delete a domain from the shared customer???s domain list, run
+        a DELETE request against the domains endpoint of the API.
       operationId: deleteDomain
       x-api-path-slug: domains-delete
       responses:

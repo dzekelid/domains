@@ -8,13 +8,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-racksp
 x-kinRank: "9"
 x-alexaRank: "4115"
 tags: Domains
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Rackspace List domains
-  x-api-slug: rackspace
+- name: Rackspace - List domains
+  x-api-slug: v1-0accountdomains-get
   description: |-
     These calls provide a list of all DNS domains manageable by a given account.
     The resulting list is flat, and does not break the domains down hierarchically
@@ -22,122 +22,130 @@ apis:
     domain is conceptually a subdomain of another domain in the list.Note
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomains-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomains-get-openapi.md
-- name: Rackspace Create domain
-  x-api-slug: rackspace
+- name: Rackspace - Create domain
+  x-api-slug: v1-0accountdomains-post
   description: |-
     NoteThis call returns an asynchronous response, See
     Synchronous and asynchronous responses
     for more details and examples of the way that asynchronous responses work.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomains-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomains-post-openapi.md
-- name: Rackspace Update domains
-  x-api-slug: rackspace
+- name: Rackspace - Update domains
+  x-api-slug: v1-0accountdomains-put
   description: |-
     NoteThis call returns an asynchronous response, as described in
     Synchronous and asynchronous responses.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomains-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomains-put-openapi.md
-- name: Rackspace Delete domains
-  x-api-slug: rackspace
+- name: Rackspace - Delete domains
+  x-api-slug: v1-0accountdomains-delete
   description: |-
     NoteThis call returns an asynchronous response, as described in
     Synchronous and asynchronous responses.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomains-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomains-delete-openapi.md
-- name: Rackspace Search domains
-  x-api-slug: rackspace
+- name: Rackspace - Search domains
+  x-api-slug: v1-0accountdomainssearch-get
   description: 'NoteFilter criteria may consist of:'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains/search
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainssearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainssearch-get-openapi.md
-- name: Rackspace List domain details without subdomains
-  x-api-slug: rackspace
+- name: Rackspace - List domain details without subdomains
+  x-api-slug: v1-0accountdomainsdomainid-get
   description: |-
     This call provides the detailed output for a specified domain configured and
     associated with an account. This call is not capable of returning details for a
     domain that has been deleted.This call does not require a request body.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains/{domainId}
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainid-get-openapi.md
-- name: Rackspace Update domain
-  x-api-slug: rackspace
+- name: Rackspace - Update domain
+  x-api-slug: v1-0accountdomainsdomainid-put
   description: |-
     NoteThis call returns an asynchronous response. Refer to
     Synchronous and asynchronous responses
     for more details and examples of the way that asynchronous responses work.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains/{domainId}
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainid-put-openapi.md
-- name: Rackspace Delete domain
-  x-api-slug: rackspace
+- name: Rackspace - Delete domain
+  x-api-slug: v1-0accountdomainsdomainid-delete
   description: |-
     NoteThis call returns an asynchronous response, as described in
     Synchronous and asynchronous responses.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains/{domainId}
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainid-delete-openapi.md
-- name: Rackspace Show domain changes
-  x-api-slug: rackspace
+- name: Rackspace - Show domain changes
+  x-api-slug: v1-0accountdomainsdomainidchanges-get
   description: |-
     This call shows all changes to a specified domain since a specified
     date/time. The since parameter is optional and defaults to midnight of the
@@ -146,88 +154,68 @@ apis:
     domain changes since midnight, GMT-5, on September 13, 2011.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains/{domainId}/changes
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainidchanges-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainidchanges-get-openapi.md
-- name: Rackspace Export domain
-  x-api-slug: rackspace
+- name: Rackspace - Export domain
+  x-api-slug: v1-0accountdomainsdomainidexport-get
   description: |-
     NoteThis call returns an asynchronous response. Refer to
     Synchronous and asynchronous responses.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains/{domainId}/export
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainidexport-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainidexport-get-openapi.md
-- name: Rackspace Clone domain
-  x-api-slug: rackspace
+- name: Rackspace - Clone domain
+  x-api-slug: v1-0accountdomainsdomainidclone-post
   description: |-
     Creates a specified domain ( example2.com ) by cloning a domain with id
     domainId. All options except cloneName assume a default value of true.Note
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains/{domainId}/clone
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainidclone-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainidclone-post-openapi.md
-- name: Rackspace Import domain
-  x-api-slug: rackspace
+- name: Rackspace - Import domain
+  x-api-slug: v1-0accountdomainsimport-post
   description: |-
     NoteThis call returns an asynchronous response, as described in
     Synchronous and asynchronous responses.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
   humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains/import
-  tags: Domains
+  baseURL: https:///
+  tags: Cloud, Storage, Compute, Cloud, Storage, DNS, API LIfeyclessss, Compute, DNS
+    Cloud, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, SaaS, Technology, Enterprise, ISP, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsimport-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsimport-post-openapi.md
-- name: Rackspace List subdomains
-  x-api-slug: rackspace
-  description: |-
-    This call provides a list of all DNS domains that are subdomains for a
-    specified domain. The resulting list is flat, and does not break the domains
-    down hierarchically by subdomain.Note
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
-  humanURL: http://www.rackspace.com/
-  baseURL: |
-    https://///v1.0/{account}/domains/{domainId}/subdomains
-  tags: Subdomains
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainidsubdomains-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/v1-0accountdomainsdomainidsubdomains-get-openapi.md
-- name: Rackspace
-  x-api-slug: rackspace
-  description: Host on our dedicated or cloud infrastructure or through one of our
-    partners. Leverage our expertise to run fast and lean. We offer web, app or email
-    hosting, data services and managed security solutions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/241-rackspace.jpg
-  humanURL: http://www.rackspace.com/
-  baseURL: https:///
-  tags: Domains
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/rackspace/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://quovo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://rackspace.stack.network
 - type: x-base
   url: https://dfw.servers.api.rackspacecloud.com/
 - type: x-blog

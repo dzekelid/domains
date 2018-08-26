@@ -119,4 +119,18 @@ paths:
           description: OK
       tags:
       - Domains
+  /2015-01-01/tags:
+    post:
+      summary: Add Tags
+      description: |-
+        Attaches resource tags to an Amazon ES domain. Use the POST HTTP method
+                        with this operation. For more information, see Tagging Amazon ES
+                        Domains.
+      operationId: addTags
+      x-api-path-slug: 20150101tags-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tags
 ---

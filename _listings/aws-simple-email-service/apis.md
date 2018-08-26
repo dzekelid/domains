@@ -9,36 +9,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Domains
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Simple Email Service API Verify Domain Dkim
-  x-api-slug: aws-simple-email-service-api
-  description: Returns a set of DKIM tokens for a domain.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
-  humanURL: https://aws.amazon.com/ses/
-  baseURL: ://///?Action=VerifyDomainDkim
-  tags: Domains
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionverifydomaindkim-get-openapi.md
-- name: AWS Simple Email Service API
-  x-api-slug: aws-simple-email-service-api
-  description: Amazon Simple Email Service (Amazon SES) is a cost-effective email
-    service built on the reliable and scalable infrastructure that Amazon.com developed
-    to serve its own customer base. With Amazon SES, you can send and receive email
-    with no required minimum commitments &ndash; you pay as you go, and you only pay
-    for what you use.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
-  humanURL: https://aws.amazon.com/ses/
-  baseURL: :///
-  tags: Domains
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.shield.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.simple.email.service.stack.network
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SES
 - type: x-documentation

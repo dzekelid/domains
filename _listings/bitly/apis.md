@@ -7,41 +7,34 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly
 x-kinRank: "8"
 x-alexaRank: "737"
 tags: Domains
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitly User Metrics API User Referring Domains
-  x-api-slug: bitly-user-metrics-api
+- name: Bitly User Metrics API - User Referring Domains
+  x-api-slug: v3userreferring-domains-get
   description: eturns aggregate metrics about the domains referring click traffic
     to all of the authenticated users Bitlinks. If the user is a master account, or
     is a subaccount with full_reports permission, the user may choose to view the
     metrics of any account belonging to the master account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
   humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//v3//v3/user/referring_domains
-  tags: User,Referring,Domains
+  baseURL: https://api-ssl.bitly.com//v3
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/v3userreferring-domains-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/v3userreferring-domains-get-openapi.md
-- name: Bitly User Metrics API
-  x-api-slug: bitly-user-metrics-api
-  description: Get the most out of your social and online marketing efforts. Own,
-    understand and activate your best audience through the power of the link with
-    Bitly Enterprise.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
-  humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//v3
-  tags: Domains
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/openapi.md
 x-common:
 - type: x--net-library
   url: http://code.google.com/p/bitly-dot-net
+- type: x-api-gallery
+  url: http://bitbucket.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitly.stack.network
 - type: x-application-management
   url: http://dev.bitly.com/my_apps.html
 - type: x-base

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio
 x-kinRank: "10"
 x-alexaRank: "9195"
 tags: Domains
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/apis.md
 specificationVersion: "0.14"
 apis:
@@ -167,6 +167,561 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
+  description: Remove a mapping from this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
+- name: Twilio - Get Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get
+  description: Return a specific IpAccessControlListMapping instance by Sid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
+- name: Twilio - Get Domains
+  x-api-slug: accountsaccountsidsipdomains-get
+  description: Returns a paged list of the domains for an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-get-openapi.md
+- name: Twilio - Add Domains
+  x-api-slug: accountsaccountsidsipdomains-post
+  description: Creates a new Domain and returns its instance resource. You must pick
+    a unique domain name that ends in .sip.twilio.com.nAfter creating a Domain, you
+    must map it to an authentication method before the domain is ready to receive
+    traffic.n
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-post-openapi.md
+- name: Twilio - Get Domains
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-get
+  description: Return a specific instance by Sid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-get-openapi.md
+- name: Twilio - Add Domains
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-post
+  description: Update the attributes of a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-post-openapi.md
+- name: Twilio - Delete Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-delete
+  description: Delete a domain. If you have created subdomains of a domain, you will
+    not be able to delete the domain until you first delete all subdomains of it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
+- name: Twilio - Get Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get
+  description: Get the user lists mapped to this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
+- name: Twilio - Add Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post
+  description: Map a CredentialList to the domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete
+  description: Remove a CredentialListMapping from a domain
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
+- name: Twilio - Get Domains IP Access Control List Mapping
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get
+  description: Return the IpAccessControlListMappings that are associated to this
+    domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
+- name: Twilio - Add Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post
+  description: Map an IpAccessControlList to this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
+  description: Remove a mapping from this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
+- name: Twilio - Get Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get
+  description: Return a specific IpAccessControlListMapping instance by Sid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
+- name: Twilio - Get Domains
+  x-api-slug: accountsaccountsidsipdomains-get
+  description: Returns a paged list of the domains for an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-get-openapi.md
+- name: Twilio - Add Domains
+  x-api-slug: accountsaccountsidsipdomains-post
+  description: Creates a new Domain and returns its instance resource. You must pick
+    a unique domain name that ends in .sip.twilio.com.nAfter creating a Domain, you
+    must map it to an authentication method before the domain is ready to receive
+    traffic.n
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-post-openapi.md
+- name: Twilio - Get Domains
+  x-api-slug: accountsaccountsidsipdomains-get
+  description: Returns a paged list of the domains for an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-get-openapi.md
+- name: Twilio - Add Domains
+  x-api-slug: accountsaccountsidsipdomains-post
+  description: Creates a new Domain and returns its instance resource. You must pick
+    a unique domain name that ends in .sip.twilio.com.nAfter creating a Domain, you
+    must map it to an authentication method before the domain is ready to receive
+    traffic.n
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomains-post-openapi.md
+- name: Twilio - Get Domains
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-get
+  description: Return a specific instance by Sid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-get-openapi.md
+- name: Twilio - Add Domains
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-post
+  description: Update the attributes of a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-post-openapi.md
+- name: Twilio - Get Domains
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-get
+  description: Return a specific instance by Sid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-get-openapi.md
+- name: Twilio - Delete Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-delete
+  description: Delete a domain. If you have created subdomains of a domain, you will
+    not be able to delete the domain until you first delete all subdomains of it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
+- name: Twilio - Add Domains
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-post
+  description: Update the attributes of a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-post-openapi.md
+- name: Twilio - Delete Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsid-delete
+  description: Delete a domain. If you have created subdomains of a domain, you will
+    not be able to delete the domain until you first delete all subdomains of it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsid-delete-openapi.md
+- name: Twilio - Get Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get
+  description: Get the user lists mapped to this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
+- name: Twilio - Add Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post
+  description: Map a CredentialList to the domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
+- name: Twilio - Get Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get
+  description: Get the user lists mapped to this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-get-openapi.md
+- name: Twilio - Add Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post
+  description: Map a CredentialList to the domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappings-post-openapi.md
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete
+  description: Remove a CredentialListMapping from a domain
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete
+  description: Remove a CredentialListMapping from a domain
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidcredentiallistmappingsclsid-delete-openapi.md
+- name: Twilio - Get Domains IP Access Control List Mapping
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get
+  description: Return the IpAccessControlListMappings that are associated to this
+    domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
+- name: Twilio - Add Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post
+  description: Map an IpAccessControlList to this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
+- name: Twilio - Get Domains IP Access Control List Mapping
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get
+  description: Return the IpAccessControlListMappings that are associated to this
+    domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-get-openapi.md
+- name: Twilio - Add Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post
+  description: Map an IpAccessControlList to this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappings-post-openapi.md
+- name: Twilio - Delete Domains Credentials
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
+  description: Remove a mapping from this domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete-openapi.md
+- name: Twilio - Get Domains IP Access Control List Mappings
+  x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get
+  description: Return a specific IpAccessControlListMapping instance by Sid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/twilio/accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-get-openapi.md
 - name: Twilio - Delete Domains Credentials
   x-api-slug: accountsaccountsidsipdomainssipdomainsidipaccesscontrollistmappingsalsid-delete
   description: Remove a mapping from this domain.

@@ -96,6 +96,27 @@ paths:
       - Top
       - Domains
       - Subdomains
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Features Top
+        Domains Subdomains
+      description: Parameters analyses username project slug analysis slug features
+        top domains subdomains.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugFeaturesTopDomainsSubdomains
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugfeaturestop-domainssubdomains-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Features
+      - Top
+      - Domains
+      - Subdomains
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

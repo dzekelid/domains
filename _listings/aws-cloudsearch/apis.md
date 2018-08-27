@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Domains
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/apis.md
 specificationVersion: "0.14"
 apis:
@@ -54,6 +54,162 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondescribedomains-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondescribedomains-get-openapi.md
+- name: AWS CloudSearch - List Domain Names
+  x-api-slug: actionlistdomainnames-get
+  description: Lists all search domains owned by an account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actionlistdomainnames-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actionlistdomainnames-get-openapi.md
+- name: AWS CloudSearch - Create Domain
+  x-api-slug: actioncreatedomain-get
+  description: Creates a new search domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actioncreatedomain-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actioncreatedomain-get-openapi.md
+- name: AWS CloudSearch - Delete Domain
+  x-api-slug: actiondeletedomain-get
+  description: Permanently deletes a search domain and all of its data.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondeletedomain-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondeletedomain-get-openapi.md
+- name: AWS CloudSearch - Describe Domains
+  x-api-slug: actiondescribedomains-get
+  description: Gets information about the search domains owned by this account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondescribedomains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondescribedomains-get-openapi.md
+- name: AWS CloudSearch - List Domain Names
+  x-api-slug: actionlistdomainnames-get
+  description: Lists all search domains owned by an account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actionlistdomainnames-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actionlistdomainnames-get-openapi.md
+- name: AWS CloudSearch - Create Domain
+  x-api-slug: actioncreatedomain-get
+  description: Creates a new search domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actioncreatedomain-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actioncreatedomain-get-openapi.md
+- name: AWS CloudSearch - Create Domain
+  x-api-slug: actioncreatedomain-get
+  description: Creates a new search domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actioncreatedomain-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actioncreatedomain-get-openapi.md
+- name: AWS CloudSearch - Delete Domain
+  x-api-slug: actiondeletedomain-get
+  description: Permanently deletes a search domain and all of its data.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondeletedomain-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondeletedomain-get-openapi.md
+- name: AWS CloudSearch - Delete Domain
+  x-api-slug: actiondeletedomain-get
+  description: Permanently deletes a search domain and all of its data.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondeletedomain-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondeletedomain-get-openapi.md
+- name: AWS CloudSearch - Describe Domains
+  x-api-slug: actiondescribedomains-get
+  description: Gets information about the search domains owned by this account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondescribedomains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondescribedomains-get-openapi.md
+- name: AWS CloudSearch - Describe Domains
+  x-api-slug: actiondescribedomains-get
+  description: Gets information about the search domains owned by this account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondescribedomains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actiondescribedomains-get-openapi.md
+- name: AWS CloudSearch - List Domain Names
+  x-api-slug: actionlistdomainnames-get
+  description: Lists all search domains owned by an account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  humanURL: https://aws.amazon.com/cloudsearch/
+  baseURL: https:///
+  tags: Amazon Web Services, Search, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actionlistdomainnames-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-cloudsearch/actionlistdomainnames-get-openapi.md
 - name: AWS CloudSearch - List Domain Names
   x-api-slug: actionlistdomainnames-get
   description: Lists all search domains owned by an account.

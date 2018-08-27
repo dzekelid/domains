@@ -7,11 +7,59 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku
 x-kinRank: "8"
 x-alexaRank: "6044"
 tags: Domains
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Heroku - Delete Application Domain Name
+  x-api-slug: appsappdomainsdomain-name-delete
+  description: Delete application domain name.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/appsappdomainsdomain-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/appsappdomainsdomain-name-delete-openapi.md
+- name: Heroku - Delete Application Domain Name
+  x-api-slug: appsappdomainsdomain-name-delete
+  description: Delete application domain name.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/appsappdomainsdomain-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/appsappdomainsdomain-name-delete-openapi.md
+- name: Heroku - Delete Application Domain Name
+  x-api-slug: appsappdomainsdomain-name-delete
+  description: Delete application domain name.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/appsappdomainsdomain-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/heroku/appsappdomainsdomain-name-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://here.api.gallery.streamdata.io

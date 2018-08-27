@@ -46,6 +46,77 @@ paths:
       - Top
       - Domains
       - Domains
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Features Top
+        Domains Domains
+      description: Parameters analyses username project slug analysis slug features
+        top domains domains.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugFeaturesTopDomainsDomains
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugfeaturestop-domainsdomains-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Features
+      - Top
+      - Domains
+      - Domains
+  /analyses/{username}/{project_slug}/{analysis_slug}/features/top_domains/subdomains:
+    get:
+      summary: Get Analyses Username Project Slug Analysis Slug Features Top Domains
+        Subdomains
+      description: Get analyses username project slug analysis slug features top domains
+        subdomains.
+      operationId: getAnalysesUsernameProjectSlugAnalysisSlugFeaturesTopDomainsSubdomains
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugfeaturestop-domainssubdomains-get
+      parameters:
+      - in: query
+        name: page
+        description: Page Number
+      - in: query
+        name: size
+        description: Page Size
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Features
+      - Top
+      - Domains
+      - Subdomains
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Features Top
+        Domains Subdomains
+      description: Parameters analyses username project slug analysis slug features
+        top domains subdomains.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugFeaturesTopDomainsSubdomains
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugfeaturestop-domainssubdomains-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Features
+      - Top
+      - Domains
+      - Subdomains
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

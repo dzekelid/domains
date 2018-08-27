@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Domains
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/apis.md
 specificationVersion: "0.14"
 apis:
@@ -49,6 +49,153 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-openapi.md
+- name: AWS Elasticsearch Service API - Add Tags
+  x-api-slug: 20150101tags-post
+  description: |-
+    Attaches resource tags to an Amazon ES domain. Use the POST HTTP method
+                    with this operation. For more information, see Tagging Amazon ES
+                    Domains.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101tags-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101tags-post-openapi.md
+- name: AWS Elasticsearch Service API - Create Elasticsearch Domain
+  x-api-slug: 20150101esdomain-post
+  description: |-
+    Creates a new Amazon ES domain. Use the HTTP POST method with this
+                    operation. For more information, see Creating Amazon ES Domains.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-openapi.md
+- name: AWS Elasticsearch Service API - Delete Elasticsearch Domain
+  x-api-slug: 20150101esdomaindomain-name-delete
+  description: |-
+    Deletes an Amazon ES domain and all of its data. A domain cannot be recovered after it
+                    is deleted. Use the DELETE HTTP method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-openapi.md
+- name: AWS Elasticsearch Service API - Add Tags
+  x-api-slug: 20150101tags-post
+  description: |-
+    Attaches resource tags to an Amazon ES domain. Use the POST HTTP method
+                    with this operation. For more information, see Tagging Amazon ES
+                    Domains.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101tags-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101tags-post-openapi.md
+- name: AWS Elasticsearch Service API - Create Elasticsearch Domain
+  x-api-slug: 20150101esdomain-post
+  description: |-
+    Creates a new Amazon ES domain. Use the HTTP POST method with this
+                    operation. For more information, see Creating Amazon ES Domains.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-openapi.md
+- name: AWS Elasticsearch Service API - Create Elasticsearch Domain
+  x-api-slug: 20150101esdomain-post
+  description: |-
+    Creates a new Amazon ES domain. Use the HTTP POST method with this
+                    operation. For more information, see Creating Amazon ES Domains.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-openapi.md
+- name: AWS Elasticsearch Service API - Delete Elasticsearch Domain
+  x-api-slug: 20150101esdomaindomain-name-delete
+  description: |-
+    Deletes an Amazon ES domain and all of its data. A domain cannot be recovered after it
+                    is deleted. Use the DELETE HTTP method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-openapi.md
+- name: AWS Elasticsearch Service API - Delete Elasticsearch Domain
+  x-api-slug: 20150101esdomaindomain-name-delete
+  description: |-
+    Deletes an Amazon ES domain and all of its data. A domain cannot be recovered after it
+                    is deleted. Use the DELETE HTTP method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-openapi.md
+- name: AWS Elasticsearch Service API - Add Tags
+  x-api-slug: 20150101tags-post
+  description: |-
+    Attaches resource tags to an Amazon ES domain. Use the POST HTTP method
+                    with this operation. For more information, see Tagging Amazon ES
+                    Domains.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101tags-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101tags-post-openapi.md
 - name: AWS Elasticsearch Service API - Add Tags
   x-api-slug: 20150101tags-post
   description: |-

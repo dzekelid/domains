@@ -16,11 +16,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Domains
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-api-gateway/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS API Gateway API - Get Domain Base Path
+  x-api-slug: domainnamesa-b-c-combasepathmappings-get
+  description: Gets the BasePathMappings resource representing the collection of base
+    path mappings for the specified custom domain name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
+  humanURL: https://aws.amazon.com/api-gateway/
+  baseURL: :///
+  tags: Amazon Web Services, Gateway, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Deployments, Profiles, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-api-gateway/domainnamesa-b-c-combasepathmappings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-api-gateway/domainnamesa-b-c-combasepathmappings-get-openapi.md
 - name: AWS API Gateway API - Get Domain Base Path
   x-api-slug: domainnamesa-b-c-combasepathmappings-get
   description: Gets the BasePathMappings resource representing the collection of base

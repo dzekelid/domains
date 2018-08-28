@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly
 x-kinRank: "8"
 x-alexaRank: "737"
 tags: Domains
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Bitly Link API - Get User Save Custom Domain Keyword
+  x-api-slug: v3usersave-custom-domain-keyword-get
+  description: Get user save custom domain keyword.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
+  humanURL: http://bitly.com
+  baseURL: https://api-ssl.bitly.com//v3
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/v3usersave-custom-domain-keyword-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/v3usersave-custom-domain-keyword-get-openapi.md
 - name: Bitly Link API - Get User Save Custom Domain Keyword
   x-api-slug: v3usersave-custom-domain-keyword-get
   description: Get user save custom domain keyword.
@@ -39,6 +52,33 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/linkreferrers-by-domain-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/linkreferrers-by-domain-get-openapi.md
+- name: Bitly Link Metrics API - Link Referrers by Domain
+  x-api-slug: linkreferrers-by-domain-get
+  description: Returns metrics about the pages referring click traffic to a single
+    Bitlink, grouped by referring domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
+  humanURL: http://bitly.com
+  baseURL: https://api-ssl.bitly.com//v3
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/linkreferrers-by-domain-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/linkreferrers-by-domain-get-openapi.md
+- name: Bitly User API - User Tracking Domain List
+  x-api-slug: v3usertracking-domain-list-get
+  description: Returns a list of tracking domains a user has configured.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
+  humanURL: http://bitly.com
+  baseURL: https://api-ssl.bitly.com//v3
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/v3usertracking-domain-list-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/bitly/v3usertracking-domain-list-get-openapi.md
 - name: Bitly User API - User Tracking Domain List
   x-api-slug: v3usertracking-domain-list-get
   description: Returns a list of tracking domains a user has configured.

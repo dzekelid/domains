@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Domains
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Simple Email Service API - Verify Domain Dkim
+  x-api-slug: actionverifydomaindkim-get
+  description: Returns a set of DKIM tokens for a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionverifydomaindkim-get-openapi.md
 - name: AWS Simple Email Service API - Get Identity Mail From Domain Attributes
   x-api-slug: actiongetidentitymailfromdomainattributes-get
   description: Returns the custom MAIL FROM attributes for a list of identities (email
@@ -42,6 +53,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionsetidentitymailfromdomain-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionsetidentitymailfromdomain-get-openapi.md
+- name: AWS Simple Email Service API - Verify Domain Dkim
+  x-api-slug: actionverifydomaindkim-get
+  description: Returns a set of DKIM tokens for a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionverifydomaindkim-get-openapi.md
 - name: AWS Simple Email Service API - Verify Domain Identity
   x-api-slug: actionverifydomainidentity-get
   description: Verifies a domain.
@@ -111,6 +133,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionsetidentitymailfromdomain-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionsetidentitymailfromdomain-get-openapi.md
+- name: AWS Simple Email Service API - Verify Domain Dkim
+  x-api-slug: actionverifydomaindkim-get
+  description: Returns a set of DKIM tokens for a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionverifydomaindkim-get-openapi.md
 - name: AWS Simple Email Service API - Verify Domain Identity
   x-api-slug: actionverifydomainidentity-get
   description: Verifies a domain.
@@ -124,6 +157,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionverifydomainidentity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionverifydomainidentity-get-openapi.md
+- name: AWS Simple Email Service API - Verify Domain Dkim
+  x-api-slug: actionverifydomaindkim-get
+  description: Returns a set of DKIM tokens for a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-simple-email-service/actionverifydomaindkim-get-openapi.md
 - name: AWS Simple Email Service API - Verify Domain Identity
   x-api-slug: actionverifydomainidentity-get
   description: Verifies a domain.

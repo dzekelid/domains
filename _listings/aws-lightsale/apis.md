@@ -11,11 +11,327 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Domains
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Lightsale API - Create Domain
+  x-api-slug: actioncreatedomain-get
+  description: Creates a domain resource for the specified domain (e.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actioncreatedomain-get-openapi.md
+- name: AWS Lightsale API - Create Domain Entry
+  x-api-slug: actioncreatedomainentry-get
+  description: |-
+    Creates one of the following entry records associated with the domain: A record, CNAME
+          record, TXT record, or MX record.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actioncreatedomainentry-get-openapi.md
+- name: AWS Lightsale API - Delete Domain
+  x-api-slug: actiondeletedomain-get
+  description: Deletes the specified domain recordset and all of its domain records.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiondeletedomain-get-openapi.md
+- name: AWS Lightsale API - Delete Domain Entry
+  x-api-slug: actiondeletedomainentry-get
+  description: Deletes a specific domain entry.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiondeletedomainentry-get-openapi.md
+- name: AWS Lightsale API - Get Domain
+  x-api-slug: actiongetdomain-get
+  description: Returns information about a specific domain recordset.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiongetdomain-get-openapi.md
+- name: AWS Lightsale API - Get Domains
+  x-api-slug: actiongetdomains-get
+  description: Returns a list of all domains in the user's account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiongetdomains-get-openapi.md
+- name: AWS Lightsale API - Update Domain Entry
+  x-api-slug: actionupdatedomainentry-get
+  description: Updates a domain recordset after it is created.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actionupdatedomainentry-get-openapi.md
+- name: AWS Lightsale API - Create Domain
+  x-api-slug: actioncreatedomain-get
+  description: Creates a domain resource for the specified domain (e.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actioncreatedomain-get-openapi.md
+- name: AWS Lightsale API - Create Domain Entry
+  x-api-slug: actioncreatedomainentry-get
+  description: |-
+    Creates one of the following entry records associated with the domain: A record, CNAME
+          record, TXT record, or MX record.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actioncreatedomainentry-get-openapi.md
+- name: AWS Lightsale API - Delete Domain
+  x-api-slug: actiondeletedomain-get
+  description: Deletes the specified domain recordset and all of its domain records.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiondeletedomain-get-openapi.md
+- name: AWS Lightsale API - Delete Domain Entry
+  x-api-slug: actiondeletedomainentry-get
+  description: Deletes a specific domain entry.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiondeletedomainentry-get-openapi.md
+- name: AWS Lightsale API - Get Domain
+  x-api-slug: actiongetdomain-get
+  description: Returns information about a specific domain recordset.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiongetdomain-get-openapi.md
+- name: AWS Lightsale API - Get Domains
+  x-api-slug: actiongetdomains-get
+  description: Returns a list of all domains in the user's account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiongetdomains-get-openapi.md
+- name: AWS Lightsale API - Update Domain Entry
+  x-api-slug: actionupdatedomainentry-get
+  description: Updates a domain recordset after it is created.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actionupdatedomainentry-get-openapi.md
+- name: AWS Lightsale API - Create Domain
+  x-api-slug: actioncreatedomain-get
+  description: Creates a domain resource for the specified domain (e.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actioncreatedomain-get-openapi.md
+- name: AWS Lightsale API - Create Domain Entry
+  x-api-slug: actioncreatedomainentry-get
+  description: |-
+    Creates one of the following entry records associated with the domain: A record, CNAME
+          record, TXT record, or MX record.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actioncreatedomainentry-get-openapi.md
+- name: AWS Lightsale API - Create Domain
+  x-api-slug: actioncreatedomain-get
+  description: Creates a domain resource for the specified domain (e.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actioncreatedomain-get-openapi.md
+- name: AWS Lightsale API - Create Domain Entry
+  x-api-slug: actioncreatedomainentry-get
+  description: |-
+    Creates one of the following entry records associated with the domain: A record, CNAME
+          record, TXT record, or MX record.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actioncreatedomainentry-get-openapi.md
+- name: AWS Lightsale API - Delete Domain
+  x-api-slug: actiondeletedomain-get
+  description: Deletes the specified domain recordset and all of its domain records.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiondeletedomain-get-openapi.md
+- name: AWS Lightsale API - Delete Domain Entry
+  x-api-slug: actiondeletedomainentry-get
+  description: Deletes a specific domain entry.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiondeletedomainentry-get-openapi.md
+- name: AWS Lightsale API - Delete Domain
+  x-api-slug: actiondeletedomain-get
+  description: Deletes the specified domain recordset and all of its domain records.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiondeletedomain-get-openapi.md
+- name: AWS Lightsale API - Delete Domain Entry
+  x-api-slug: actiondeletedomainentry-get
+  description: Deletes a specific domain entry.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiondeletedomainentry-get-openapi.md
+- name: AWS Lightsale API - Get Domain
+  x-api-slug: actiongetdomain-get
+  description: Returns information about a specific domain recordset.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiongetdomain-get-openapi.md
+- name: AWS Lightsale API - Get Domains
+  x-api-slug: actiongetdomains-get
+  description: Returns a list of all domains in the user's account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiongetdomains-get-openapi.md
+- name: AWS Lightsale API - Get Domain
+  x-api-slug: actiongetdomain-get
+  description: Returns information about a specific domain recordset.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiongetdomain-get-openapi.md
+- name: AWS Lightsale API - Get Domains
+  x-api-slug: actiongetdomains-get
+  description: Returns a list of all domains in the user's account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actiongetdomains-get-openapi.md
+- name: AWS Lightsale API - Update Domain Entry
+  x-api-slug: actionupdatedomainentry-get
+  description: Updates a domain recordset after it is created.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actionupdatedomainentry-get-openapi.md
+- name: AWS Lightsale API - Update Domain Entry
+  x-api-slug: actionupdatedomainentry-get
+  description: Updates a domain recordset after it is created.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-lightsale/actionupdatedomainentry-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.lambda.api.gallery.streamdata.io

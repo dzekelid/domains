@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postma
 x-kinRank: "8"
 x-alexaRank: "87545"
 tags: Domains
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/postmark/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,76 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/postmark/domains-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/postmark/domains-get-openapi.md
+- name: Postmark Account-level - Create a Domain
+  x-api-slug: domains-post
+  description: Create a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/postmark/domains-post-openapi.md
+- name: Postmark Account-level - Delete a Domain
+  x-api-slug: domainsdomainid-delete
+  description: Delete a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/postmark/domainsdomainid-delete-openapi.md
+- name: Postmark Account-level - Get a Domain
+  x-api-slug: domainsdomainid-get
+  description: Get a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/postmark/domainsdomainid-get-openapi.md
+- name: Postmark Account-level - Update a Domain
+  x-api-slug: domainsdomainid-put
+  description: Update a domain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/postmark/domainsdomainid-put-openapi.md
+- name: Postmark Account-level - Rotate DKIM Key
+  x-api-slug: domainsdomainidrotatedkim-post
+  description: "Creates a new DKIM key to replace your current key. Until the DNS
+    entries are confirmed, \nthe new values will be in the `DKIMPendingHost` and `DKIMPendingTextValue`
+    fields. \nAfter the new DKIM value is verified in DNS, the pending values will
+    migrate to \n`DKIMTextValue` and `DKIMPendingTextValue` and Postmark will begin
+    to sign emails \nwith the new DKIM key."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/postmark/domainsdomainidrotatedkim-post-openapi.md
+- name: Postmark Account-level - Request DNS Verification for SPF
+  x-api-slug: domainsdomainidverifyspf-post
+  description: Request dns verification for spf.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/postmark/domainsdomainidverifyspf-post-openapi.md
 x-common:
 - type: x--net-library
   url: http://developer.postmarkapp.com/developer-official-libs.html#dot-net

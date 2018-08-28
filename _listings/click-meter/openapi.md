@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Click Meter
 x-complete: 1
@@ -129,4 +128,3 @@ paths:
       tags:
       - Domains
       - Id
----

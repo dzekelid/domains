@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Postmark
 x-complete: 1
@@ -165,4 +164,3 @@ paths:
       - Domains
       - Domainid
       - Verifyspf
----

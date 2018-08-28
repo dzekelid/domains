@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Domains
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/apis.md
 specificationVersion: "0.14"
 apis:
@@ -49,6 +49,77 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domain
+  x-api-slug: 20150101esdomaindomain-name-get
+  description: |-
+    Describes the domain configuration for the specified Amazon ES domain, including the
+                    domain ID, domain service endpoint, and domain ARN. Use the HTTP GET
+                    method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-get-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domains
+  x-api-slug: 20150101esdomaininfo-post
+  description: |-
+    Describes the domain configuration for up to five specified Amazon ES domains.
+                    Information includes the domain ID, domain service endpoint, and domain ARN. Use the
+                    HTTP POST method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaininfo-post-openapi.md
+- name: AWS Elasticsearch Service API - List Domain Names
+  x-api-slug: 20150101domain-get
+  description: Displays the names of all Amazon ES domains owned by the current user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101domain-get-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domain Config
+  x-api-slug: 20150101esdomaindomain-nameconfig-get
+  description: |-
+    Displays the configuration of an Amazon ES domain. Use the HTTP GET method
+                    with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-nameconfig-get-openapi.md
+- name: AWS Elasticsearch Service API - Update Elasticsearch Domain Config
+  x-api-slug: 20150101esdomaindomain-nameconfig-post
+  description: |-
+    Modifies the configuration of an Amazon ES domain, such as the instance type and the
+                    number of instances. Use the POST HTTP method with this
+                    operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-nameconfig-post-openapi.md
 - name: AWS Elasticsearch Service API - Add Tags
   x-api-slug: 20150101tags-post
   description: |-
@@ -66,6 +137,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101tags-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101tags-post-openapi.md
+- name: AWS Elasticsearch Service API - List Domain Names
+  x-api-slug: 20150101domain-get
+  description: Displays the names of all Amazon ES domains owned by the current user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101domain-get-openapi.md
 - name: AWS Elasticsearch Service API - Create Elasticsearch Domain
   x-api-slug: 20150101esdomain-post
   description: |-
@@ -82,6 +165,21 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domains
+  x-api-slug: 20150101esdomaininfo-post
+  description: |-
+    Describes the domain configuration for up to five specified Amazon ES domains.
+                    Information includes the domain ID, domain service endpoint, and domain ARN. Use the
+                    HTTP POST method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaininfo-post-openapi.md
 - name: AWS Elasticsearch Service API - Delete Elasticsearch Domain
   x-api-slug: 20150101esdomaindomain-name-delete
   description: |-
@@ -98,6 +196,50 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domain
+  x-api-slug: 20150101esdomaindomain-name-get
+  description: |-
+    Describes the domain configuration for the specified Amazon ES domain, including the
+                    domain ID, domain service endpoint, and domain ARN. Use the HTTP GET
+                    method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-get-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domain Config
+  x-api-slug: 20150101esdomaindomain-nameconfig-get
+  description: |-
+    Displays the configuration of an Amazon ES domain. Use the HTTP GET method
+                    with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-nameconfig-get-openapi.md
+- name: AWS Elasticsearch Service API - Update Elasticsearch Domain Config
+  x-api-slug: 20150101esdomaindomain-nameconfig-post
+  description: |-
+    Modifies the configuration of an Amazon ES domain, such as the instance type and the
+                    number of instances. Use the POST HTTP method with this
+                    operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-nameconfig-post-openapi.md
 - name: AWS Elasticsearch Service API - Add Tags
   x-api-slug: 20150101tags-post
   description: |-
@@ -115,6 +257,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101tags-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101tags-post-openapi.md
+- name: AWS Elasticsearch Service API - List Domain Names
+  x-api-slug: 20150101domain-get
+  description: Displays the names of all Amazon ES domains owned by the current user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101domain-get-openapi.md
 - name: AWS Elasticsearch Service API - Create Elasticsearch Domain
   x-api-slug: 20150101esdomain-post
   description: |-
@@ -131,6 +285,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-openapi.md
+- name: AWS Elasticsearch Service API - List Domain Names
+  x-api-slug: 20150101domain-get
+  description: Displays the names of all Amazon ES domains owned by the current user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101domain-get-openapi.md
 - name: AWS Elasticsearch Service API - Create Elasticsearch Domain
   x-api-slug: 20150101esdomain-post
   description: |-
@@ -147,6 +313,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomain-post-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domains
+  x-api-slug: 20150101esdomaininfo-post
+  description: |-
+    Describes the domain configuration for up to five specified Amazon ES domains.
+                    Information includes the domain ID, domain service endpoint, and domain ARN. Use the
+                    HTTP POST method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaininfo-post-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domains
+  x-api-slug: 20150101esdomaininfo-post
+  description: |-
+    Describes the domain configuration for up to five specified Amazon ES domains.
+                    Information includes the domain ID, domain service endpoint, and domain ARN. Use the
+                    HTTP POST method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaininfo-post-openapi.md
 - name: AWS Elasticsearch Service API - Delete Elasticsearch Domain
   x-api-slug: 20150101esdomaindomain-name-delete
   description: |-
@@ -163,6 +359,21 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domain
+  x-api-slug: 20150101esdomaindomain-name-get
+  description: |-
+    Describes the domain configuration for the specified Amazon ES domain, including the
+                    domain ID, domain service endpoint, and domain ARN. Use the HTTP GET
+                    method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-get-openapi.md
 - name: AWS Elasticsearch Service API - Delete Elasticsearch Domain
   x-api-slug: 20150101esdomaindomain-name-delete
   description: |-
@@ -179,6 +390,79 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-delete-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domain Config
+  x-api-slug: 20150101esdomaindomain-nameconfig-get
+  description: |-
+    Displays the configuration of an Amazon ES domain. Use the HTTP GET method
+                    with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-nameconfig-get-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domain
+  x-api-slug: 20150101esdomaindomain-name-get
+  description: |-
+    Describes the domain configuration for the specified Amazon ES domain, including the
+                    domain ID, domain service endpoint, and domain ARN. Use the HTTP GET
+                    method with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-name-get-openapi.md
+- name: AWS Elasticsearch Service API - Update Elasticsearch Domain Config
+  x-api-slug: 20150101esdomaindomain-nameconfig-post
+  description: |-
+    Modifies the configuration of an Amazon ES domain, such as the instance type and the
+                    number of instances. Use the POST HTTP method with this
+                    operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-nameconfig-post-openapi.md
+- name: AWS Elasticsearch Service API - Describe Elasticsearch Domain Config
+  x-api-slug: 20150101esdomaindomain-nameconfig-get
+  description: |-
+    Displays the configuration of an Amazon ES domain. Use the HTTP GET method
+                    with this operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-nameconfig-get-openapi.md
+- name: AWS Elasticsearch Service API - Update Elasticsearch Domain Config
+  x-api-slug: 20150101esdomaindomain-nameconfig-post
+  description: |-
+    Modifies the configuration of an Amazon ES domain, such as the instance type and the
+                    number of instances. Use the POST HTTP method with this
+                    operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/domains/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-nameconfig-post-openapi.md
 - name: AWS Elasticsearch Service API - Add Tags
   x-api-slug: 20150101tags-post
   description: |-

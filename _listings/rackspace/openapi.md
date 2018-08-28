@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Rackspace
 x-complete: 1
@@ -300,4 +299,3 @@ paths:
           description: OK
       tags:
       - Domains
----
